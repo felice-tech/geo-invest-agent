@@ -8,7 +8,7 @@ load_dotenv()
 
 # ── LLM ────────────────────────────────────────────────────────────────────────
 # LLM_PROVIDER: "openai" (default) or "gemini"
-LLM_PROVIDER: str = os.getenv("LLM_PROVIDER", "openai").lower()
+LLM_PROVIDER: str = os.getenv("LLM_PROVIDER", "gemini").lower()
 
 # OpenAI settings (used when LLM_PROVIDER=openai)
 OPENAI_API_KEY: str = os.getenv("OPENAI_API_KEY", "")
